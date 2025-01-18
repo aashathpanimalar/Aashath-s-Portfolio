@@ -292,7 +292,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Holiday Wallet",
+    title: "Holiday Wallet project",
     date: "Nov 2024",
     description:
       "Coming up with a full stack clone of paytm project",
