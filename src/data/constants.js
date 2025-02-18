@@ -1,15 +1,19 @@
 
+import HeroImg from "../images/HeroImage.jpg";
+import Mystery from "../images/Mystery_No_Game.png";
+import Result from "../images/Result_Management.png";
+
+
 export const Bio = {
   name: "Mohamed Aashath K",
   roles: [
-    "Full Stack Developer",
+    "Web Developer",
     "Problem solver",
     "Programmer",
   ],
   description:
     "I am a focused, adaptable person who is constantly ready to take on new tasks. I have a strong desire to learn and am committed to doing excellent work. I am prepared to contribute significantly and achieve big things with a growth mindset and an optimistic attitude.",
-    //I have a strong background in full stack programming and have built both front-end and back-end applications as a dedicated third-year B.Tech IT student. I've developed practical skills in creating end-to-end solutions through working on database-connected projects and creating responsive user interfaces.I'm constantly excited to pick up new skills in technology and improve my problem-solving skills through practical application. I'm eager to contribute to the latest technological projects and take on new challenges.
-
+   
   github: "https://github.com/aashathpanimalar",
   resume:
     "https://drive.google.com/file/d/1GjYGS5tM4bXUghRZj79QYz38PThVSNOr/view?usp=sharing",
@@ -218,15 +222,13 @@ export const education = [
 ];
 
 export const projects = [
-
   {
     id: 0,
-    title: "E-commerce Website (Pepper Paradise) ",
+    title: "E-commerce Website (Pepper Paradise)",
     date: "June 2024 - Sep 2024",
     description:
-      "developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. created a dynamic cart page that calculates the total cost and allows for item quantity modifications. handled orders and payments, keeping all information in a PostgreSQL database.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
+    image: HeroImg , // Use the image URL instead of JSX here
     tags: [
       "React Js",
       "Node Js",
@@ -248,12 +250,11 @@ export const projects = [
     date: "Aug 2023 - Oct 2023",
     description:
       "Developed a web-based result management system using HTML, CSS, JavaScript, PHP, and MySQL. Implemented faculty and student login pages with secure authentication. Faculty can input student data (name, register number, department, grades, GPA) and store it in the database. Students can access results by matching their register number and date of birth, with a CGPA calculator available. Data retrieval and result calculation are managed using PHP and MySQL.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/BlogWebsite.png?alt=media&token=a780e526-237a-4f5b-85f4-3d8bab4e5849",
+    image:Result,
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
-    github: "https://github.com/nitin611",
-    webapp: "https://github.com/nitin611",
+    github: "https://github.com/aashathpanimalar/Result-Management-System",
+    webapp: "https://github.com/aashathpanimalar/Result-Management-System",
     // member: [
     //   {
     //     name: "Nitin kumar jha",
@@ -265,46 +266,31 @@ export const projects = [
   },
   {
     id: 2,
-    title: "College Management System",
-    date: "Jan 2024 - Mar 2024",
-    description:
-      "developed a college administration system for the IT department. created panels for students, faculty, and administrators with role-based access control. While teachers upload student grades, create automatic question paper levels, and manage digital attendance, the administrator controls faculty and student permissions. created a timetable generator and stored academic information in the database, such as semester and internal grades.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/todoApp.png?alt=media&token=55459f4f-6e0f-4f1a-b1e4-c2bcffe0b5f9",
-    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    // category: "Backend app",
-    category: "web app",
-    github: "https://github.com/nitin611",
-    webapp: "https://github.com/nitin611",
-  },
-  {
-    id: 3,
     title: "Mystery Number Challenge",
     date: "Jun 2024",
     description:
       "created a basic interactive game with JavaScript, HTML, and CSS. Users could predict randomly generated numbers between 1 and 100, and they got feedback on how high or low their guess was. For replayability, a reset function was added to recreate the random number.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/Screenshot%20(1).png?alt=media&token=f0625c32-9f1c-406b-81d7-a32edd32c7b3",
+    image:Mystery,
     tags: ["HTML", "CSS","Java Script"],
     category: "Frontend WebApps",
-    github: "https://github.com/nitin611/Ticket-Care",
-    webapp: "https://nitin611.github.io/Ticket-Care/",
+    github: "https://github.com/aashathpanimalar/Mystery-Number-Challenge",
+    webapp: "https://mystery-number-challenge.netlify.app/",
   },
   {
-    id: 5,
-    title: "Holiday Wallet project",
+    id: 3,
+    title: "Rock Paper Scissors",
     date: "Nov 2024",
     description:
-      "Coming up with a full stack clone of paytm project",
+      "In this classic game of rock-paper-scissors, you'll face off against the computer. The computer randomly selects its move, and you choose yours. The winner of each round is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock. The game keeps track of your score and displays the number of rounds played",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/HolidayWallet.png?alt=media&token=b27840ec-3cd0-4182-82ad-7b396557600f",
     tags: ["React Js", "Prisma", "Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/nitin611/HolidayWallet",
+    category: "Frontend WebApps",
+    github: "https://github.com/aashathpanimalar/rock-paper-scissors",
     webapp: "https://unrivaled-sopapillas-ae4094.netlify.app/",
   },
   {
-    id: 6,
+    id: 4,
     title: "Medium Clone",
     date: "Oct 2024",
     description:
@@ -317,7 +303,7 @@ export const projects = [
     webapp: "https://github.com/nitin611",
   },
   {
-    id: 7,
+    id: 5,
     title: "Course-Selling-App",
     date: "Oct 2024",
     description:
