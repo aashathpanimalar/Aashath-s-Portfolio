@@ -1,8 +1,25 @@
-import Mystery from "../images/Mystery_No_Game.png";
-import Result from "../images/Result_Management.png";
+import Mystery1 from "../images/Mystery_No_Game1.png";
+import Mystery2 from "../images/Mystery_No_Game2.png";
 import EcFrontend1 from "../images/E-commerce-Frontend1.png";
+import EcFrontend2 from "../images/E-commerce-Frontend2.png";
+import EcFrontend3 from "../images/E-commerce-Frontend3.png";
+import EcFrontend4 from "../images/E-commerce-Frontend4.png";
+import EcFrontend5 from "../images/E-commerce-Frontend5.png";
+import EcFrontend6 from "../images/E-commerce-Frontend6.png";
 import Ec1 from "../images/E-commerce1.png";
+import Ec2 from "../images/E-commerce2.png";
 import Qp1 from "../images/Qp1.png";
+import Qp2 from "../images/Qp2.png";
+import Qp3 from "../images/Qp3.png";
+import Qp4 from "../images/Qp4.png";
+import Qp5 from "../images/Qp5.png";
+import Qp6 from "../images/Qp6.png";
+import Result1 from "../images/Result_Management1.png";
+import Result2 from "../images/Result_Management2.png";
+import Result3 from "../images/Result_Management3.png";
+import Result4 from "../images/Result_Management4.png";
+import Result5 from "../images/Result_Management5.png";
+
 
 
 export const Bio = {
@@ -235,7 +252,7 @@ export const projects = [
     date: "June 2024 - Sep 2024",
     description:
       "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
-    image: Ec1 ,
+    images: Ec1 ? [Ec1, Ec2] : [],
     tags: [
       "React Js",
       "Node Js",
@@ -257,7 +274,7 @@ export const projects = [
     date: "June 2024 - Sep 2024",
     description:
       "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
-    image: EcFrontend1 , // Use the image URL instead of JSX here
+    images: EcFrontend1 ? [EcFrontend1, EcFrontend2,EcFrontend3, EcFrontend4,EcFrontend5, EcFrontend6] : [] ,// Use the image URL instead of JSX here
     tags: [
       "React Js",
       "Tailwind Css"
@@ -272,7 +289,7 @@ export const projects = [
     date: "Aug 2023 - Oct 2023",
     description:
       "Developed a web-based result management system using HTML, CSS, JavaScript, PHP, and MySQL. Implemented faculty and student login pages with secure authentication. Faculty can input student data (name, register number, department, grades, GPA) and store it in the database. Students can access results by matching their register number and date of birth, with a CGPA calculator available. Data retrieval and result calculation are managed using PHP and MySQL.",
-    image:Result,
+      images: Result1 ? [Result1, Result2,Result3, Result4,Result5] : [] ,
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
     github: "https://github.com/aashathpanimalar/Result-Management-System",
@@ -292,132 +309,36 @@ export const projects = [
     date: "Jun 2024",
     description:
       "created a basic interactive game with JavaScript, HTML, and CSS. Users could predict randomly generated numbers between 1 and 100, and they got feedback on how high or low their guess was. For replayability, a reset function was added to recreate the random number.",
-    image:Mystery,
+      images: Mystery1 ? [Mystery1, Mystery2] : [] ,
     tags: ["HTML", "CSS","Java Script"],
     category: "Frontend WebApps",
     github: "https://github.com/aashathpanimalar/Mystery-Number-Challenge",
     webapp: "https://mystery-number-challenge.netlify.app/",
   },
-  {
-    id: 3,
-    title: "Rock Paper Scissors",
-    date: "Nov 2024",
-    description:
-      "In this classic game of rock-paper-scissors, you'll face off against the computer. The computer randomly selects its move, and you choose yours. The winner of each round is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock. The game keeps track of your score and displays the number of rounds played",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/HolidayWallet.png?alt=media&token=b27840ec-3cd0-4182-82ad-7b396557600f",
-    tags: ["React Js", "Prisma", "Auth", "Node JS"],
-    category: "Frontend WebApps",
-    github: "https://github.com/aashathpanimalar/rock-paper-scissors",
-    webapp: "https://unrivaled-sopapillas-ae4094.netlify.app/",
-  },
+  // {
+  //   id: 3,
+  //   title: "Rock Paper Scissors",
+  //   date: "Nov 2024",
+  //   description:
+  //     "In this classic game of rock-paper-scissors, you'll face off against the computer. The computer randomly selects its move, and you choose yours. The winner of each round is determined by the rules: rock crushes scissors, scissors cuts paper, and paper covers rock. The game keeps track of your score and displays the number of rounds played",
+  //    images: EcFrontend1 ? [EcFrontend1, EcFrontend1] : [] ,
+  //   tags: ["React Js", "Prisma", "Auth", "Node JS"],
+  //   category: "Frontend WebApps",
+  //   github: "https://github.com/aashathpanimalar/rock-paper-scissors",
+  //   webapp: "https://unrivaled-sopapillas-ae4094.netlify.app/",
+  // },
   {
     id: 4,
     title: "Question Paper Creation",
     date: "Mar 2024",
     description:
-      "The Question Paper Creation System is designed for Hindi scwohools and colleges to streamline the process of generating question papers. It supports different question paper formats, such as 10 two-mark questions, 5 thirteen-mark questions, and 1 fifteen-mark question. The system automatically assigns Bloom’s taxonomy levels—Remember, Understand, Apply, Analyze, Evaluate, and Create—by matching keywords in the entered questions with a predefined database. Additionally, it generates course outcomes without requiring manual input. Before submission, all fields are validated, ensuring accuracy. Faculty members can also retrieve their question papers using a question paper ID and faculty ID, formatting them into a structured layout. This system enhances efficiency, consistency, and accuracy in question paper creation.",
-    image:Qp1,
+      "The Question Paper Creation System is designed for Hindi schools and colleges to streamline the process of generating question papers. It supports different question paper formats, such as 10 two-mark questions, 5 thirteen-mark questions, and 1 fifteen-mark question. The system automatically assigns Bloom’s taxonomy levels—Remember, Understand, Apply, Analyze, Evaluate, and Create—by matching keywords in the entered questions with a predefined database. Additionally, it generates course outcomes without requiring manual input. Before submission, all fields are validated, ensuring accuracy. Faculty members can also retrieve their question papers using a question paper ID and faculty ID, formatting them into a structured layout. This system enhances efficiency, consistency, and accuracy in question paper creation.",
+      images: Qp1 ? [Qp1, Qp2,Qp3, Qp4,Qp5, Qp6] : [] ,
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
     github: "https://github.com/aashathpanimalar/question-paper-creation",
     webapp: "https://github.com/aashathpanimalar/question-paper-creation",
   },
-  {
-    id: 5,
-    title: "Course-Selling-App",
-    date: "Oct 2024",
-    description:
-      "A Backend of Course Selling app",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/CourseSelling.png?alt=media&token=63aabb88-8821-45fd-9b2a-fcab07243f7e",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "Backend app",
-    github: "https://github.com/nitin611",
-    webapp: "https://github.com/nitin611",
-  },
-  {
-    id: 8,
-    title: "Medium-Clone",
-    date: "Nov 2024",
-    description:
-      "I'm developing a Medium clone that will serve as a platform for writers to share their articles and connect with readers. The project aims to create a user-friendly interface for publishing content, similar to Medium's design and functionality. Additionally, it will incorporate features for engagement, such as comments and recommendations, to foster a vibrant writing community.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/Medium.png?alt=media&token=e1a321b8-82ea-46c2-ad62-c2dcbe709f1e",
-    tags: ["React", "Redux", "Nodejs", "ExpressJs, jwtAuth,MongoDb"],
-    category: "Frontend WebApps",
-    github: "https://github.com/nitin611",
-    webapp: "https://github.com/nitin611",
-  },
-  {
-    id: 9,
-    title: "VITSkillHub",
-    date: "oct 2023 - dec 2023",
-    description:
-      "VITSkillHub is a community-driven platform designed for students and educators to collaborate. Teachers can create and upload courses, while students can enroll to enhance their skills. The platform allows seamless transition between teaching and learning, with a user-friendly admin panel for course management.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/VITSkillHub.jpg?alt=media&token=ced08045-ff1c-4559-a082-3891207f12de",
-    tags: [
-      "Docker",
-      "AWS",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Context Api",
-    ],
-    category: "web app",
-    github: "https://github.com/nitin611",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
-    id: 10,
-    title: "Vexa",
-    date: "Oct 2022 - Present",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Tailwind Css",
-      "Redux",
-      "Context Api",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/nitin611",
-    webapp: "https://vexa-app.netlify.app/",
-  },
-  {
-    id: 11,
-    title: "ShareSpace",
-    date: "Sep 2024 - Nov 2024",
-    description:
-      "ShareSpace is a collaborative platform where users can buy, sell, and showcase products, while also offering the ability for members to list and manage their own items. It provides an intuitive dashboard for users to track orders, manage profiles, and handle product listings. Designed for community-driven commerce, ShareSpace emphasizes simplicity and ease of use for both buyers and sellers.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/HomePage.png?alt=media&token=01c31826-b1d6-44ea-8fe3-d961318d27d3",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/nitin611/ShareSpace",
-    webapp: "https://sharespace-frontend-x2d0.onrender.com/",
-    member: [
-      {
-        name: "Nitin kumar jha",
-        img: "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/HeroImage.jpg?alt=media&token=8ad56151-d8f0-4fa9-b22e-7dfbb2b5a1c2",
-        linkedin: "https://www.linkedin.com/in/nitin-kumar-jha-8015221b8/",
-        github: "https://github.com/nitin611",
-      },
-      {
-        name: "Faiz",
-        img: "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/Screenshot%20(3).png?alt=media&token=37156d75-4b75-4216-a025-f2d052cc89d3",
-        linkedin: "",
-        github: "https://faizahm.com/",
-      },
-    ],
-  },
+  
 ];
 

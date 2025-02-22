@@ -249,3 +249,159 @@ const index = ({ openModal, setOpenModal }) => {
 };
 
 export default index;
+
+// import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
+// import { Modal } from "@mui/material";
+// import React from "react";
+// import styled from "styled-components";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+// const Container = styled.div`
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   background-color: #000000a7;
+//   display: flex;
+//   align-items: top;
+//   justify-content: center;
+//   overflow-y: scroll;
+//   transition: all 0.5s ease;
+// `;
+
+// const Wrapper = styled.div`
+//   max-width: 800px;
+//   width: 100%;
+//   border-radius: 16px;
+//   margin: 50px 12px;
+//   height: min-content;
+//   background-color: ${({ theme }) => theme.card};
+//   color: ${({ theme }) => theme.text_primary};
+//   padding: 20px;
+//   display: flex;
+//   flex-direction: column;
+//   position: relative;
+// `;
+
+// const Carousel = styled(Slider)`
+//   .slick-slide img {
+//     width: 100%;
+//     object-fit: cover;
+//     border-radius: 12px;
+//     margin-top: 30px;
+//     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+//   }
+// `;
+
+// const Title = styled.div`
+//   font-size: 28px;
+//   font-weight: 600;
+//   margin: 8px 6px 0px 6px;
+//   color: ${({ theme }) => theme.text_primary};
+// `;
+
+// const Desc = styled.div`
+//   font-size: 16px;
+//   font-weight: 400;
+//   margin: 8px 6px;
+//   color: ${({ theme }) => theme.text_primary};
+// `;
+
+// const Members = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   gap: 6px;
+//   margin: 12px 6px;
+// `;
+
+// const Member = styled.div`
+//   display: flex;
+//   align-items: center;
+//   gap: 12px;
+// `;
+
+// const MemberImage = styled.img`
+//   width: 50px;
+//   height: 50px;
+//   object-fit: cover;
+//   border-radius: 50%;
+// `;
+
+// const ButtonGroup = styled.div`
+//   display: flex;
+//   justify-content: flex-end;
+//   margin: 12px 0px;
+//   gap: 12px;
+// `;
+
+// const Button = styled.a`
+//   text-align: center;
+//   font-size: 16px;
+//   font-weight: 600;
+//   color: ${({ theme }) => theme.text_primary};
+//   padding: 12px 16px;
+//   border-radius: 8px;
+//   background-color: ${({ theme }) => theme.primary};
+//   cursor: pointer;
+//   text-decoration: none;
+//   transition: all 0.5s ease;
+//   &:hover {
+//     background-color: ${({ theme }) => theme.primary + 99};
+//   }
+// `;
+
+// const Index = ({ openModal, setOpenModal }) => {
+//   const project = openModal?.project;
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//   };
+
+//   return (
+//     <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
+//       <Container>
+//         <Wrapper>
+//           <CloseRounded
+//             style={{ position: "absolute", top: "10px", right: "20px", cursor: "pointer" }}
+//             onClick={() => setOpenModal({ state: false, project: null })}
+//           />
+//           <Carousel {...settings}>
+//             {project?.images.map((img, index) => (
+//               <img key={index} src={img} alt={`Slide ${index + 1}`} />
+//             ))}
+//           </Carousel>
+//           <Title>{project?.title}</Title>
+//           <Desc>{project?.description}</Desc>
+//           {project.member && (
+//             <Members>
+//               {project?.member.map((member) => (
+//                 <Member key={member.name}>
+//                   <MemberImage src={member.img} />
+//                   <span>{member.name}</span>
+//                   <a href={member.github} target="_blank" rel="noopener noreferrer">
+//                     <GitHub />
+//                   </a>
+//                   <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+//                     <LinkedIn />
+//                   </a>
+//                 </Member>
+//               ))}
+//             </Members>
+//           )}
+//           <ButtonGroup>
+//             <Button href={project?.github} target="_blank">View Code</Button>
+//             <Button href={project?.webapp} target="_blank">View Live App</Button>
+//           </ButtonGroup>
+//         </Wrapper>
+//       </Container>
+//     </Modal>
+//   );
+// };
+
+// export default Index;
