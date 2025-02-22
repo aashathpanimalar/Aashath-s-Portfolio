@@ -1,7 +1,8 @@
-
-import HeroImg from "../images/HeroImage.jpg";
 import Mystery from "../images/Mystery_No_Game.png";
 import Result from "../images/Result_Management.png";
+import EcFrontend1 from "../images/E-commerce-Frontend1.png";
+import Ec1 from "../images/E-commerce1.png";
+import Qp1 from "../images/Qp1.png";
 
 
 export const Bio = {
@@ -127,10 +128,16 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
+
       {
         name: "Excel",
         image:
           "https://www.citypng.com/public/uploads/preview/hd-microsoft-excel-logo-transparent-png-701751694777434h7pkvogbjk.png",
+      },
+       {
+        name: "Slack",
+        image:
+          "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-512.png",
       },
       
       // {
@@ -228,7 +235,7 @@ export const projects = [
     date: "June 2024 - Sep 2024",
     description:
       "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
-    image: HeroImg , // Use the image URL instead of JSX here
+    image: Ec1 ,
     tags: [
       "React Js",
       "Node Js",
@@ -241,11 +248,26 @@ export const projects = [
       "Sequlize ORM",
     ],
     category: "web app",
-    github: "https://github.com/nitin611",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/aashathpanimalar/OpenTruf-Internship",
+    webapp: "https://pepper-paradise.vercel.app/",
   },
   {
     id: 1,
+    title: "E-commerce Website Frontend",
+    date: "June 2024 - Sep 2024",
+    description:
+      "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
+    image: EcFrontend1 , // Use the image URL instead of JSX here
+    tags: [
+      "React Js",
+      "Tailwind Css"
+    ],
+    category: "Frontend WebApps",
+    github: "https://github.com/aashathpanimalar/E-commerce-frontend",
+    webapp: "https://pepper-paradise.netlify.app",
+  },
+  {
+    id: 2,
     title: "Result Management System",
     date: "Aug 2023 - Oct 2023",
     description:
@@ -265,7 +287,7 @@ export const projects = [
     // ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Mystery Number Challenge",
     date: "Jun 2024",
     description:
@@ -291,16 +313,15 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Medium Clone",
-    date: "Oct 2024",
+    title: "Question Paper Creation",
+    date: "Mar 2024",
     description:
-      "A simple Medium Clone App",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-c845f.appspot.com/o/Medium.png?alt=media&token=e1a321b8-82ea-46c2-ad62-c2dcbe709f1e",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+      "The Question Paper Creation System is designed for Hindi scwohools and colleges to streamline the process of generating question papers. It supports different question paper formats, such as 10 two-mark questions, 5 thirteen-mark questions, and 1 fifteen-mark question. The system automatically assigns Bloom’s taxonomy levels—Remember, Understand, Apply, Analyze, Evaluate, and Create—by matching keywords in the entered questions with a predefined database. Additionally, it generates course outcomes without requiring manual input. Before submission, all fields are validated, ensuring accuracy. Faculty members can also retrieve their question papers using a question paper ID and faculty ID, formatting them into a structured layout. This system enhances efficiency, consistency, and accuracy in question paper creation.",
+    image:Qp1,
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
-    github: "https://github.com/nitin611",
-    webapp: "https://github.com/nitin611",
+    github: "https://github.com/aashathpanimalar/question-paper-creation",
+    webapp: "https://github.com/aashathpanimalar/question-paper-creation",
   },
   {
     id: 5,
