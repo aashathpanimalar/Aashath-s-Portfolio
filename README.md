@@ -28,25 +28,35 @@ Here are some of the technologies and tools I use:
   - ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=ffffff)
 
 - **Tools**: 
-  - ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=ffffff)
   - ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=ffffff)
   - ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=ffffff)
 
-## 🌐 Projects
+## 🌐 Projects    
 
-Here are some of the projects I've worked on:
+1. **Project 1**: [E-commerce Website (Pepper Paradise)](https://aashath-portfolio.netlify.app/#projects)  
+   - 📝 Developed a website with a focus on chilies and peppers. Integrated product management features like 'add to cart' and address selection, along with user sign-up/login. Created a dynamic cart page for cost calculation and item quantity modifications. Handled orders and payments using PostgreSQL.  
+   - 📖 Technologies Used: React Js, Node Js, PostgreSQL, Tailwind CSS, Axios, Context API, NodeMailer, JWT, Sequelize ORM  
+   - 🔗 [GitHub](https://github.com/aashathpanimalar/OpenTruf-Internship)  
 
-1. **Project 1**: [ShareSpace](https://link-to-your-project)
-   - 📝 Buy and sell college stuffs
-   - 📖 Technologies Used:Reactjs, Nodejs, express,mongodb
+2. **Project 2**: [E-commerce Website Frontend](https://aashath-portfolio.netlify.app/#projects)  
+   - 📝 Developed a frontend for the e-commerce platform focusing on UI/UX using React and Tailwind CSS.  
+   - 📖 Technologies Used: React Js, Tailwind CSS  
+   - 🔗 [GitHub](https://github.com/aashathpanimalar/E-commerce-frontend)  
 
-2. **Project 2**: [VitSkillHub](https://link-to-your-project)
-   - 📝 VITSkillHub is a community-driven platform designed for students and educators to collaborate. Teachers can create and upload courses, while students can enroll to enhance their skills. The platform allows seamless transition between teaching and learning, with a user-friendly admin panel for course management.
-   - 📖 Technologies Used: React, Node.js,Docker,Aws
+3. **Project 3**: [Result Management System](https://aashath-portfolio.netlify.app/#projects)  
+   - 📝 Built a web-based result management system for secure student and faculty authentication. Faculty can input student details and results, while students can retrieve their results with a CGPA calculator.  
+   - 📖 Technologies Used: HTML, CSS, JavaScript, PHP, MySQL  
+   - 🔗 [GitHub](https://github.com/aashathpanimalar/Result-Management-System)  
 
-3. **Project 3**: [Vexa](https://link-to-your-project)
-   - 📝Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. 
-   - 📖 Technologies Used: Mern stack,Redux,NodeMailer
+4. **Project 4**: [Mystery Number Challenge](https://mystery-number-challenge.netlify.app/)  
+   - 📝 Created an interactive game where users guess randomly generated numbers between 1 and 100, with feedback on guesses and a reset function for replayability.  
+   - 📖 Technologies Used: HTML, CSS, JavaScript  
+   - 🔗 [GitHub](https://github.com/aashathpanimalar/Mystery-Number-Challenge)  
+
+5. **Project 5**: [Question Paper Creation](https://aashath-portfolio.netlify.app/#projects)  
+   - 📝 Designed a system for Hindi schools and colleges to automate question paper generation with Bloom’s taxonomy level assignment and structured formatting.  
+   - 📖 Technologies Used: HTML, CSS, JavaScript, PHP, MySQL  
+   - 🔗 [GitHub](https://github.com/aashathpanimalar/question-paper-creation)  
 
 ## 🚀 Getting Started
 

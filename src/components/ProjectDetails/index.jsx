@@ -243,9 +243,11 @@ const Index = ({ openModal, setOpenModal }) => {
           <CloseRounded
             style={{
               position: "absolute",
-              top: "10px",
-              right: "20px",
+              top: "5px",
+              right: "0px",
               cursor: "pointer",
+              backgroundColor:"red",
+              borderRadius:"100px",
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
