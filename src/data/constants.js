@@ -121,35 +121,35 @@ export const skills = [
     title: "Soft Skills",
     skills: [
       {
-        name: "Leadership & Team Management",
+        name: "Leadership",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ky7KYMfG0DvT1HZEtViEv9-Nl076UnVJPg&s",
+          "https://cdn1.vectorstock.com/i/1000x1000/96/10/business-leadership-logo-design-template-vector-20819610.jpg",
       },
       {
         name: "Desicion-making",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://www.shutterstock.com/shutterstock/photos/520185730/display_1500/stock-vector-three-way-direction-arrows-simple-color-triple-arrow-heads-sign-520185730.jpg",
       },
      
       {
         name: "Problem-Sloving",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://cdn-icons-png.flaticon.com/512/4795/4795515.png",
       },
       {
         name: "Time-Management",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://cdn-icons-png.flaticon.com/512/893/893023.png",
       },
       {
         name: "Collaboration & Teamwork",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://t3.ftcdn.net/jpg/03/91/37/12/360_F_391371227_OOPKuywmf6dqwOTsw4Dfu0iDejLKyZZC.jpg",
       },
       {
         name: "Presentation Skills",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://cdn-icons-png.flaticon.com/512/13322/13322300.png",
       },
 
       
@@ -208,7 +208,7 @@ export const skills = [
 export const achievements = [
   {
     id: 0,
-    img: Ec1,
+    img: "https://www.alverniaschool.com/wp-content/uploads/2023/05/result.png",
     title: "School Topper",
     organization: "Sri Ramakrishna Vivekananda Higher Secondary School",
     date: "Apr 2020 - Apr 2022",
@@ -218,7 +218,7 @@ export const achievements = [
   },
   {
     id: 1,
-    img: Ec1,
+    img: "https://img.freepik.com/premium-vector/leadership-symbol-icon_33216-91.jpg?semt=ais_hybrid",
     title: "Leadership Roles",
     organization: "Panimalar Engineering College",
     date: "2022-2026",
@@ -228,7 +228,7 @@ export const achievements = [
   },
   {
     id: 2,
-    img: Ec1,
+    img: "https://www.pngplay.com/wp-content/uploads/6/Ribbon-Award-Logo-Transparent-PNG.png",
     title: "Award Recipient",
     organization: "Panimalar Engineering College",
     date: "2022",
@@ -238,7 +238,7 @@ export const achievements = [
   },
   {
     id: 3,
-    img: Ec1,
+    img:"https://img.freepik.com/premium-vector/champion-logo-badge-template_331749-1312.jpg",
     title: "Sports Champion",
     organization: "MGR Higher Secondary School",
     date: "2020",
@@ -248,7 +248,7 @@ export const achievements = [
   },
   {
     id: 4,
-    img: Ec1,
+    img: "https://as1.ftcdn.net/jpg/04/74/14/44/1000_F_474144494_KAoLgzB3cvQobpGKOMnjtj6CoLUCkdRz.jpg",
     title: "Participation in Competitions",
     organization: "Panimalar Engineering College",
     date: "2024",
