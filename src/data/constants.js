@@ -105,16 +105,54 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
+      // {
+      //   name: "Firebase",
+      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      // },
       
       {
         name: "Sequlize",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNEYhEFmAuRqemHxbsqZ-whutMSFLlDewoWg&s",
       },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
+      {
+        name: "Leadership & Team Management",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ky7KYMfG0DvT1HZEtViEv9-Nl076UnVJPg&s",
+      },
+      {
+        name: "Desicion-making",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+     
+      {
+        name: "Problem-Sloving",
+        image:
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Time-Management",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Collaboration & Teamwork",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Presentation Skills",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+
+      
     ],
   },
   {
@@ -166,6 +204,60 @@ export const skills = [
     ],
   },
 ];
+
+export const achievements = [
+  {
+    id: 0,
+    img: Ec1,
+    title: "School Topper",
+    organization: "Sri Ramakrishna Vivekananda Higher Secondary School",
+    date: "Apr 2020 - Apr 2022",
+    desc: "Ranked 1st in both SSLC and HSC examinations, demonstrating excellence in problem-solving and logical reasoning.",
+    explanation: "Consistently excelled in academics, securing the highest scores in school-level board exams.",
+    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_awarded-the-title-of-best-student-for-scoring-activity-7093455909674221568-um0V?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+  },
+  {
+    id: 1,
+    img: Ec1,
+    title: "Leadership Roles",
+    organization: "Panimalar Engineering College",
+    date: "2022-2026",
+    desc: "Served as Secretary of the College Math Club (Infinite Thinkers) and Lead Student Coordinator of the ITEA Club, managing events and fostering peer learning.",
+    explanation: "Promoted mathematical problem-solving, coordinated student activities, and ensured smooth execution of technical and academic events.",
+    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_im-proud-to-share-that-ive-been-recognized-activity-7251259872430727169-XzKK?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+  },
+  {
+    id: 2,
+    img: Ec1,
+    title: "Award Recipient",
+    organization: "Panimalar Engineering College",
+    date: "2022",
+    desc: 'Received the "Senthazhilmil Selvan" award from the Thiruvallur District Collector for outstanding academic and extracurricular achievements.',
+    explanation: "Recognized for academic excellence and leadership contributions at the district level.",
+    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_certificate-of-winning-a-prize-in-the-grand-activity-7093460830746263552-l2Rp?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+  },
+  {
+    id: 3,
+    img: Ec1,
+    title: "Sports Champion",
+    organization: "MGR Higher Secondary School",
+    date: "2020",
+    desc: "Achieved the title of Overall Sports Champion during schooling, showcasing excellence in athletics, teamwork, and perseverance.",
+    explanation: "Demonstrated outstanding performance in multiple sports, earning recognition as an all-rounder in athletics.",
+    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_zone-level-sports-certificates-activity-7093459489437200384-EE95?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+  },
+  {
+    id: 4,
+    img: Ec1,
+    title: "Participation in Competitions",
+    organization: "Panimalar Engineering College",
+    date: "2024",
+    desc: "Actively participated in national and inter-college competitions such as the Smart India Hackathon, ERP project competitions, and various coding hackathons.",
+    explanation: "Applied problem-solving and technical skills to develop innovative solutions, collaborating with teams in competitive environments.",
+    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_opentruf-internship-completion-certificate-activity-7246011461649489920-VpJl?utm_source=share&utm_medium=member_android"
+  }
+];
+
 
 export const experiences = [
   {
