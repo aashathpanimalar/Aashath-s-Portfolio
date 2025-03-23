@@ -19,6 +19,14 @@ import Result2 from "../images/Result_Management2.png";
 import Result3 from "../images/Result_Management3.png";
 import Result4 from "../images/Result_Management4.png";
 import Result5 from "../images/Result_Management5.png";
+import Wp1 from "../images/Whatsapp-1.png";
+import Wp2 from "../images/Whatsapp-2.png";
+import Wp3 from "../images/Whatsapp-3.png";
+import Wp4 from "../images/Whatsapp-4.png";
+import Wp5 from "../images/Whatsapp-5.png";
+import Wp6 from "../images/Whatsapp-6.png";
+import Wp7 from "../images/Whatsapp-7.png";
+
 
 
 
@@ -430,6 +438,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/aashathpanimalar/question-paper-creation",
     webapp: "https://github.com/aashathpanimalar/question-paper-creation",
+  },
+  {
+    id: 5,
+    title: "Whatsapp Clone",
+    date: "Feb 2025",
+    description:
+      "The WhatsApp Duplicate Frontend is a web-based project that replicates the user interface of WhatsApp using HTML, CSS, and JavaScript. It features a responsive chat layout, message bubbles, a sidebar for contacts, and a message input field. The design mimics WhatsApp Web, providing a familiar experience with smooth transitions and styling. While it does not include backend functionality, it serves as a visually accurate frontend clone, ideal for UI/UX practice and further development.",
+      images: Wp1 ? [Wp1, Wp2,Wp3, Wp4,Wp5, Wp6, Wp7] : [] ,
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "web app",
+    github: "https://github.com/aashathpanimalar/whatsapp-clone/",
+    webapp: "https://aashathpanimalar.github.io/whatsapp-clone/",
   },
   
 ];
