@@ -33,7 +33,7 @@ import Wp7 from "../images/Whatsapp-7.png";
 export const Bio = {
   name: "Mohamed Aashath K",
   roles: [
-    "Web Developer",
+    "Full Stack Developer",
     "Problem solver",
     "Programmer",
   ],
@@ -42,7 +42,7 @@ export const Bio = {
    
   github: "https://github.com/aashathpanimalar",
   resume:
-    "https://drive.google.com/file/d/1GjYGS5tM4bXUghRZj79QYz38PThVSNOr/view?usp=sharing",
+    "https://drive.google.com/file/d/18_d0GyBWc-3Z6gG2D1kPczeGeHwDSp5Z/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mohamed-aashath-98ba30275/",
   twitter: "#",
   insta: "#",

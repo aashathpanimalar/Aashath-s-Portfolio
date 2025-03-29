@@ -122,7 +122,7 @@ function Footer() {
             <Icon>
               <EmailIcon />
             </Icon>
-            k.aashathofficial@gmail.com
+           aashathpanimalar@gmail.com
           </ContactItem>
           <ContactItem>
             <Icon>
