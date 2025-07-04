@@ -26,6 +26,7 @@ import Wp4 from "../images/Whatsapp-4.png";
 import Wp5 from "../images/Whatsapp-5.png";
 import Wp6 from "../images/Whatsapp-6.png";
 import Wp7 from "../images/Whatsapp-7.png";
+import res from "../images/HardCopy_Resume.pdf";
 
 
 
@@ -41,9 +42,8 @@ export const Bio = {
     "I am a focused, adaptable person who is constantly ready to take on new tasks. I have a strong desire to learn and am committed to doing excellent work. I am prepared to contribute significantly and achieve big things with a growth mindset and an optimistic attitude.",
    
   github: "https://github.com/aashathpanimalar",
-  resume:
-    "https://drive.google.com/file/d/18_d0GyBWc-3Z6gG2D1kPczeGeHwDSp5Z/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/mohamed-aashath-98ba30275/",
+  resume: res,
+  linkedin: "https://www.linkedin.com/in/mohamedAashathK/",
   twitter: "#",
   insta: "#",
 };
