@@ -393,7 +393,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
     github: "https://github.com/aashathpanimalar/Result-Management-System",
-    webapp: "https://github.com/aashathpanimalar/Result-Management-System",
+    webapp: "https://result-management-system-demo.netlify.app",
     // member: [
     //   {
     //     name: "Nitin kumar jha",
