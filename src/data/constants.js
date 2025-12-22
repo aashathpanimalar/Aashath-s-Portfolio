@@ -26,8 +26,15 @@ import Wp4 from "../images/Whatsapp-4.png";
 import Wp5 from "../images/Whatsapp-5.png";
 import Wp6 from "../images/Whatsapp-6.png";
 import Wp7 from "../images/Whatsapp-7.png";
-import res from "../images/HardCopy_Resume.pdf";
-
+import res from "../images/Aashath_Resume_FSD.pdf";
+import crs1 from "../images/crs-1.png";
+import crs2 from "../images/crs-2.png";
+import crs3 from "../images/crs-3.png";
+import crs4 from "../images/crs-4.png";
+import crs5 from "../images/crs-5.png";
+import crs6 from "../images/crs-6.png";
+import crs7 from "../images/crs-7.png";
+import crs8 from "../images/crs-8.png";
 
 
 
@@ -40,7 +47,7 @@ export const Bio = {
   ],
   description:
     "I am a focused, adaptable person who is constantly ready to take on new tasks. I have a strong desire to learn and am committed to doing excellent work. I am prepared to contribute significantly and achieve big things with a growth mindset and an optimistic attitude.",
-   
+
   github: "https://github.com/aashathpanimalar",
   resume: res,
   linkedin: "https://www.linkedin.com/in/mohamedAashathK/",
@@ -86,19 +93,24 @@ export const skills = [
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
+        name: "Spring Boot",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9i0HBomVepR6AMsmIrZAuU1MOBwWiEtAtA&s"
+      },
+      {
+        name: "REST APIs",
+        image: "https://cdn-icons-png.flaticon.com/512/2165/2165004.png"
+      },
+      {
+        name: "JPA / Hibernate",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQUCSAfBOjiuGWDZxEsm54094nLH09U-FOw&s"
+      },
+
+      {
         name: "PHP",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLgS1Qr9wvna1_RYOmDH3jjudoSSvwnp560w&s",
       },
-      // {
-      //   name: "Express Js",
-      //   image:
-      //     "https://logowik.com/content/uploads/images/express-js1720895488.logowik.com.webp",
-      // },
-      // {
-      //   name: "Graph Ql",
-      //   image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      // },
+
       {
         name: "MySQL",
         image:
@@ -108,16 +120,16 @@ export const skills = [
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
+      // {
+      //   name: "MongoDB",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      // },
       // {
       //   name: "Firebase",
       //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       // },
-      
+
       {
         name: "Sequlize",
         image:
@@ -138,7 +150,7 @@ export const skills = [
         image:
           "https://www.shutterstock.com/shutterstock/photos/520185730/display_1500/stock-vector-three-way-direction-arrows-simple-color-triple-arrow-heads-sign-520185730.jpg",
       },
-     
+
       {
         name: "Problem-Sloving",
         image:
@@ -160,12 +172,13 @@ export const skills = [
           "https://cdn-icons-png.flaticon.com/512/13322/13322300.png",
       },
 
-      
+
     ],
   },
   {
     title: "Others",
     skills: [
+
       {
         name: "Git",
         image:
@@ -176,6 +189,10 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
+      {
+        name: "Postman",
+        image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+      },
       // {
       //   name: "Docker",
       //   image:
@@ -184,7 +201,7 @@ export const skills = [
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/1200/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.jpg",
       },
       {
         name: "VS Code",
@@ -197,12 +214,12 @@ export const skills = [
         image:
           "https://www.citypng.com/public/uploads/preview/hd-microsoft-excel-logo-transparent-png-701751694777434h7pkvogbjk.png",
       },
-       {
+      {
         name: "Slack",
         image:
           "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-512.png",
       },
-      
+
       // {
       //   name: "Postman",
       //   image:
@@ -222,7 +239,7 @@ export const achievements = [
     date: "Apr 2020 - Apr 2022",
     desc: "Ranked 1st in both SSLC and HSC examinations, demonstrating excellence in problem-solving and logical reasoning.",
     explanation: "Consistently excelled in academics, securing the highest scores in school-level board exams.",
-    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_awarded-the-title-of-best-student-for-scoring-activity-7093455909674221568-um0V?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+    doc: "https://www.linkedin.com/posts/mohamed-aashath-98ba30275_awarded-the-title-of-best-student-for-scoring-activity-7093455909674221568-um0V?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
   },
   {
     id: 1,
@@ -232,7 +249,7 @@ export const achievements = [
     date: "2022-2026",
     desc: "Served as Secretary of the College Math Club (Infinite Thinkers) and Lead Student Coordinator of the ITEA Club, managing events and fostering peer learning.",
     explanation: "Promoted mathematical problem-solving, coordinated student activities, and ensured smooth execution of technical and academic events.",
-    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_im-proud-to-share-that-ive-been-recognized-activity-7251259872430727169-XzKK?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+    doc: "https://www.linkedin.com/posts/mohamed-aashath-98ba30275_im-proud-to-share-that-ive-been-recognized-activity-7251259872430727169-XzKK?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
   },
   {
     id: 2,
@@ -242,17 +259,17 @@ export const achievements = [
     date: "2022",
     desc: 'Received the "Senthazhilmil Selvan" award from the Thiruvallur District Collector for outstanding academic and extracurricular achievements.',
     explanation: "Recognized for academic excellence and leadership contributions at the district level.",
-    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_certificate-of-winning-a-prize-in-the-grand-activity-7093460830746263552-l2Rp?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+    doc: "https://www.linkedin.com/posts/mohamed-aashath-98ba30275_certificate-of-winning-a-prize-in-the-grand-activity-7093460830746263552-l2Rp?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
   },
   {
     id: 3,
-    img:"https://img.freepik.com/premium-vector/champion-logo-badge-template_331749-1312.jpg",
+    img: "https://img.freepik.com/premium-vector/champion-logo-badge-template_331749-1312.jpg",
     title: "Sports Champion",
     organization: "MGR Higher Secondary School",
     date: "2020",
     desc: "Achieved the title of Overall Sports Champion during schooling, showcasing excellence in athletics, teamwork, and perseverance.",
     explanation: "Demonstrated outstanding performance in multiple sports, earning recognition as an all-rounder in athletics.",
-    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_zone-level-sports-certificates-activity-7093459489437200384-EE95?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
+    doc: "https://www.linkedin.com/posts/mohamed-aashath-98ba30275_zone-level-sports-certificates-activity-7093459489437200384-EE95?utm_source=share&utm_medium=member_android&rcm=ACoAAENAAHsBX_Ng_9XJ0MDBiy9-d3-NIxHFu0w"
   },
   {
     id: 4,
@@ -262,7 +279,7 @@ export const achievements = [
     date: "2024",
     desc: "Actively participated in national and inter-college competitions such as the Smart India Hackathon, ERP project competitions, and various coding hackathons.",
     explanation: "Applied problem-solving and technical skills to develop innovative solutions, collaborating with teams in competitive environments.",
-    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_opentruf-internship-completion-certificate-activity-7246011461649489920-VpJl?utm_source=share&utm_medium=member_android"
+    doc: "https://www.linkedin.com/posts/mohamed-aashath-98ba30275_opentruf-internship-completion-certificate-activity-7246011461649489920-VpJl?utm_source=share&utm_medium=member_android"
   }
 ];
 
@@ -296,7 +313,7 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc:"https://www.linkedin.com/posts/mohamed-aashath-98ba30275_codsoft-activity-7177912080899997696-XzaN?utm_source=share&utm_medium=member_android",
+    doc: "https://www.linkedin.com/posts/mohamed-aashath-98ba30275_codsoft-activity-7177912080899997696-XzaN?utm_source=share&utm_medium=member_android",
   },
   {
     id: 2,
@@ -348,11 +365,34 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Car Rental Management System",
+    date: "Oct 2025 - Dec 2025",
+    description:
+      "Developed a full-stack Car Rental Management System to manage vehicles, customers, leases, and payments. Implemented features such as car management with image visualization, customer management with mobile number validation, lease creation with date and availability checks, and payment processing with daily and monthly billing logic. Ensured proper vehicle availability handling during lease and return operations. Built a responsive frontend using React and a RESTful backend using Spring Boot, with MySQL for persistent data storage.",
+    images: crs1 ? [crs1, crs2, crs3, crs4, crs5, crs6, crs7, crs8] : [],
+    tags: [
+      "React Js",
+      "Spring Boot",
+      "MySQL",
+      "REST API",
+      "Axios",
+      "Java",
+      "JPA / Hibernate",
+      "CRUD Operations",
+      "Form Validation",
+    ],
+    category: "web app",
+    github: "https://github.com/aashathpanimalar/Car-Rental-System-React",
+    webapp: "https://car-rental-management-system-static.netlify.app/",
+  }
+  ,
+  {
+    id: 1,
     title: "E-commerce Website (Pepper Paradise)",
     date: "June 2024 - Sep 2024",
     description:
       "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
-    images: Ec1 ? [Ec1, Ec2] : [],
+    images: EcFrontend1 ? [Ec1, Ec2, EcFrontend1, EcFrontend2, EcFrontend3, EcFrontend4, EcFrontend5, EcFrontend6] : [],// Use the image URL instead of JSX here
     tags: [
       "React Js",
       "Node Js",
@@ -365,21 +405,6 @@ export const projects = [
       "Sequlize ORM",
     ],
     category: "web app",
-    github: "https://github.com/aashathpanimalar/OpenTruf-Internship",
-    webapp: "https://pepper-paradise.vercel.app/",
-  },
-  {
-    id: 1,
-    title: "E-commerce Website Frontend",
-    date: "June 2024 - Sep 2024",
-    description:
-      "Developed a website with a focus on chilies and peppers. Product management features like 'add to cart' and address selection have been integrated with user sign-up/login features. Created a dynamic cart page that calculates the total cost and allows for item quantity modifications. Handled orders and payments, keeping all information in a PostgreSQL database.",
-    images: EcFrontend1 ? [EcFrontend1, EcFrontend2,EcFrontend3, EcFrontend4,EcFrontend5, EcFrontend6] : [] ,// Use the image URL instead of JSX here
-    tags: [
-      "React Js",
-      "Tailwind Css"
-    ],
-    category: "Frontend WebApps",
     github: "https://github.com/aashathpanimalar/E-commerce-frontend",
     webapp: "https://pepper-paradise.netlify.app",
   },
@@ -389,7 +414,7 @@ export const projects = [
     date: "Aug 2023 - Oct 2023",
     description:
       "Developed a web-based result management system using HTML, CSS, JavaScript, PHP, and MySQL. Implemented faculty and student login pages with secure authentication. Faculty can input student data (name, register number, department, grades, GPA) and store it in the database. Students can access results by matching their register number and date of birth, with a CGPA calculator available. Data retrieval and result calculation are managed using PHP and MySQL.",
-      images: Result1 ? [Result1, Result2,Result3, Result4,Result5] : [] ,
+    images: Result1 ? [Result1, Result2, Result3, Result4, Result5] : [],
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
     github: "https://github.com/aashathpanimalar/Result-Management-System",
@@ -409,8 +434,8 @@ export const projects = [
     date: "Jun 2024",
     description:
       "created a basic interactive game with JavaScript, HTML, and CSS. Users could predict randomly generated numbers between 1 and 100, and they got feedback on how high or low their guess was. For replayability, a reset function was added to recreate the random number.",
-      images: Mystery1 ? [Mystery1, Mystery2] : [] ,
-    tags: ["HTML", "CSS","Java Script"],
+    images: Mystery1 ? [Mystery1, Mystery2] : [],
+    tags: ["HTML", "CSS", "Java Script"],
     category: "Frontend WebApps",
     github: "https://github.com/aashathpanimalar/Mystery-Number-Challenge",
     webapp: "https://mystery-number-challenge.netlify.app/",
@@ -433,7 +458,7 @@ export const projects = [
     date: "Mar 2024",
     description:
       "The Question Paper Creation System is designed for Hindi schools and colleges to streamline the process of generating question papers. It supports different question paper formats, such as 10 two-mark questions, 5 thirteen-mark questions, and 1 fifteen-mark question. The system automatically assigns Bloom’s taxonomy levels—Remember, Understand, Apply, Analyze, Evaluate, and Create—by matching keywords in the entered questions with a predefined database. Additionally, it generates course outcomes without requiring manual input. Before submission, all fields are validated, ensuring accuracy. Faculty members can also retrieve their question papers using a question paper ID and faculty ID, formatting them into a structured layout. This system enhances efficiency, consistency, and accuracy in question paper creation.",
-      images: Qp1 ? [Qp1, Qp2,Qp3, Qp4,Qp5, Qp6] : [] ,
+    images: Qp1 ? [Qp1, Qp2, Qp3, Qp4, Qp5, Qp6] : [],
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "web app",
     github: "https://github.com/aashathpanimalar/question-paper-creation",
@@ -445,12 +470,12 @@ export const projects = [
     date: "Feb 2025",
     description:
       "The WhatsApp Duplicate Frontend is a web-based project that replicates the user interface of WhatsApp using HTML, CSS, and JavaScript. It features a responsive chat layout, message bubbles, a sidebar for contacts, and a message input field. The design mimics WhatsApp Web, providing a familiar experience with smooth transitions and styling. While it does not include backend functionality, it serves as a visually accurate frontend clone, ideal for UI/UX practice and further development.",
-      images: Wp1 ? [Wp1, Wp2,Wp3, Wp4,Wp5, Wp6, Wp7] : [] ,
+    images: Wp1 ? [Wp1, Wp2, Wp3, Wp4, Wp5, Wp6, Wp7] : [],
     tags: ["HTML", "CSS", "JavaScript"],
-    category: "web app",
+    category: "Frontend WebApps",
     github: "https://github.com/aashathpanimalar/whatsapp-clone/",
     webapp: "https://aashathpanimalar.github.io/whatsapp-clone/",
   },
-  
+
 ];
 
