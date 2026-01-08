@@ -26,7 +26,7 @@ import Wp4 from "../images/Whatsapp-4.png";
 import Wp5 from "../images/Whatsapp-5.png";
 import Wp6 from "../images/Whatsapp-6.png";
 import Wp7 from "../images/Whatsapp-7.png";
-import res from "../images/Aashath_Resume_FSD.pdf";
+import res from "../images/FSD_Aashath_Resume.pdf";
 import crs1 from "../images/crs-1.png";
 import crs2 from "../images/crs-2.png";
 import crs3 from "../images/crs-3.png";
